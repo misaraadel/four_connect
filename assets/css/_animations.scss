@@ -1,0 +1,85 @@
+/***************************** Start Animations *****************************/
+@keyframes smallbig{
+    0%, 100%{
+      transform: scale(1);
+    }
+  
+    50%{
+      transform: scale(0);
+    }
+}
+@keyframes bounce-in-fwd {
+    0% {
+        transform: scale(0);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    38% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    55% {
+        transform: scale(0.7);
+        animation-timing-function: ease-in;
+    }
+    72% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+    81% {
+        transform: scale(0.84);
+        animation-timing-function: ease-in;
+    }
+    89% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+    95% {
+        transform: scale(0.95);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+}
+@keyframes sk-rotate {
+    100% {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes sk-bounce {
+    0%, 100% {
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+}
+@keyframes loaderSlideDown {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+        display: none;
+    }
+}
+//change direction 
+@keyframes translateX {
+
+    0%,
+    100% {
+        transform: translateX(2px);
+    }
+
+    50% {
+        transform: translateX(-2px);
+    }
+}
